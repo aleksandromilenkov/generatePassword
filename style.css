@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .container{
     max-width: 500px;
     margin:5rem auto;
@@ -22,6 +23,7 @@ h3{
     border:3px solid #d62dd4;
     padding:1rem;
     position: relative;
+    font-size: 1.2rem;
 }
 .theDiv{
     position: relative;
@@ -62,4 +64,17 @@ button{
 
 button:hover{
     background-color: #d62dd4;
+}
+
+@media screen and (max-width:450px){
+    h3{
+        font-size: 2rem;
+    }
+    .showMessage{
+        font-size: 0.8rem;
+    }
+
+    .generatedPassword{
+        font-size: 1.1rem;
+    }
 }
